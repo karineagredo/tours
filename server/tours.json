@@ -1,0 +1,32 @@
+{
+    "tours": [
+        {
+            "id": "1",
+            "name": "Best of Paris in 7 days",
+            "info": "Veniam minim exercitation commodo voluptate adipisicing duis eu. Et cupidatat officia eiusmod labore elit duis laboris in reprehenderit amet amet. Occaecat deserunt ad id excepteur. Aute ullamco ullamco amet pariatur et officia eiusmod. Sunt aute ad sit esse est irure voluptate nisi do do reprehenderit voluptate ex. Aliquip ullamco consequat exercitation non commodo ullamco nisi non irure nostrud. Nostrud nulla non enim quis et in reprehenderit id incididunt do veniam commodo aliquip.",
+            "image": "https://images.adsttc.com/media/images/5d44/14fa/284d/d1fd/3a00/003d/large_jpg/eiffel-tower-in-paris-151-medium.jpg?1564742900",
+            "price": "2000"
+        },
+        {
+            "id": "2",
+            "name": "Explore the Amazons in 5 days",
+            "info": "Sit labore id qui cupidatat aliqua dolor cupidatat esse fugiat enim in officia nulla. Cillum aute proident qui laboris occaecat exercitation magna do nisi. Excepteur veniam laboris cillum aute mollit eiusmod est. Ea incididunt magna culpa excepteur consequat sunt labore enim ex mollit ea.",
+            "image": "https://southamericatravelcentre.com.au/wp-content/uploads/2019/05/Aria-Amazon-2.jpg",
+            "price": "1200"
+        },
+        {
+            "id": "3",
+            "name": "Kangaroo life. Extreme adventure",
+            "image": "https://theroseyangon.com/ei/wp-content/uploads/Top-5-Things-to-Do-Places-to-Go-in-Australia.jpg",
+            "info": "Fugiat officia adipisicing aliquip reprehenderit consectetur anim commodo laboris esse duis dolor minim veniam excepteur. Reprehenderit pariatur dolor eiusmod nisi magna aute esse nostrud. Laborum anim veniam ex cupidatat nisi exercitation aliquip excepteur anim mollit incididunt nisi id.",
+            "price": "1680"
+        },
+        {
+            "id": "4",
+            "name": "Discover Japan in a different way",
+            "image": "https://www.worldtravelguide.net/wp-content/uploads/2017/03/shu-Japan-Nachisan-Seiganto_189118511-1440x823-1.jpg",
+            "info": "Sit exercitation incididunt ad sit aliquip non ullamco. Ullamco consectetur qui non non nostrud et labore. Pariatur adipisicing qui deserunt et. Excepteur consequat ad qui dolor ut adipisicing do aute proident laboris culpa.",
+            "price": "3100"
+        }
+    ]
+}
