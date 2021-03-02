@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
-const Tour = ({ id, name, info, image, price }) => {
+const Tour = ({ id, name, info, image, price, removeTour }) => {
   const [readMore, setReadMore] = useState(false);
   return (
     <article className='card'>
@@ -9,7 +9,7 @@ const Tour = ({ id, name, info, image, price }) => {
       <footer className='card-info-container'>
         <div className='card-info'>
           <h3>{name}</h3>
-          <p>{price}</p>
+          <p className='tour-price'>${price}</p>
         </div>
         <div>
           <p>
@@ -22,7 +22,9 @@ const Tour = ({ id, name, info, image, price }) => {
             </button>
           </p>
         </div>
-        <button className='btn not-interested'>Not interested</button>
+        <button className='not-interested' onClick={() => removeTour(id)}>
+          Not interested
+        </button>
       </footer>
     </article>
   );

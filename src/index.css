@@ -104,7 +104,7 @@ p {
 .card:hover {
   box-shadow: var(--dark-shadow);
 }
-.btn.not-interested {
+.not-interested {
   display: block;
   width: 200px;
   margin: 1rem auto 0 auto;
@@ -114,6 +114,7 @@ p {
   border: 1px solid var(--clr-red-dark);
   padding: 0.25rem 0.5rem;
   border-radius: var(--radius);
+  cursor: pointer;
 }
 .card-image {
   width: 100%;
@@ -153,4 +154,26 @@ border-radius: var(--radius);
 text-transform: capitalize;
 margin-left: 1rem;
 outline-style: none;
+cursor: pointer;
+}
+.btn {
+  color: var(--clr-white);
+  background-color: var(--clr-primary-5);
+  margin: 1rem auto;
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--radius);
+  width: 200px;
+  display: block;
+  border-style: none;
+  height: 1.5rem;
+}
+.btn:hover {
+  background-color: var(--clr-primary-3);
+}
+.tour-price {
+  color: var(--clr-primary-5);
+  background: var(--clr-primary-10);
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--radius);
+  height: 1.7rem;
 }
